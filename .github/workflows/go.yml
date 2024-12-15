@@ -28,4 +28,8 @@ jobs:
     #   run: go build -v ./my_monkey/lexer
 
     - name: Test lexer
-      run: go test -v ./src/my_monkey/lexer
+      run: |
+        cd ./src/my_monkey/lexer
+        go test -v 
+
+      
