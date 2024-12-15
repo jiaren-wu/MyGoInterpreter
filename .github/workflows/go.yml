@@ -25,7 +25,7 @@ jobs:
       run: ls
 
     - name: Build
-      run: go build -v ./MyGoInterpreter/src/my_monkey/lexer
+      run: go build -v ./my_monkey/lexer
 
     - name: Test
-      run: go test -v ./MyGoInterpreter/src/my_monkey/lexer
+      run: go test -v ./my_monkey/lexer
