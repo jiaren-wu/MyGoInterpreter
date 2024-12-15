@@ -24,8 +24,8 @@ jobs:
     - name: ls
       run: ls
 
-    - name: Build
-      run: go build -v ./my_monkey/lexer
+    # - name: Build
+    #   run: go build -v ./my_monkey/lexer
 
-    - name: Test
+    - name: Test lexer
       run: go test -v ./my_monkey/lexer
