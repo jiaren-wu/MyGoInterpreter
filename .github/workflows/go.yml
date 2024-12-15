@@ -21,6 +21,9 @@ jobs:
       with:
         go-version: '1.20'
 
+    - name: ls
+      run: ls
+
     - name: Build
       run: go build -v ./MyGoInterpreter/src/my_monkey/lexer
 
