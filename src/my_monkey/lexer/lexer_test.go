@@ -54,7 +54,7 @@ func TestNextToken(t *testing.T) {
 		{token.IDENT, "add"},
 		{token.LPAREN, "("},
 		{token.IDENT, "five"},
-		{token.COMMuuuA, ","},
+		{token.COMMA, ","},
 		{token.IDENT, "ten"},
 		{token.RPAREN, ")"},
 		{token.SEMICOLON, ";"},
